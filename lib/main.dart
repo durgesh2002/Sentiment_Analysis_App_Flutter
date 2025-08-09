@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue),
       initialRoute: '/',
       routes: {
-        '/': (context) => SplashScreen(),
+        '/': (context) => const SplashScreen(),
         '/file_upload': (context) => FileUploadScreen(),
-        '/realtime': (context) => RealtimeAnalysisScreen(),
+        '/realtime': (context) => const RealtimeAnalysisScreen(),
       },
     );
   }
